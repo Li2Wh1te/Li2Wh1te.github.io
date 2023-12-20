@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>三月书</title>
-        <link>https://example.com/</link>
-        <description>Recent content on 三月书</description>
+        <title>Programming Notes on 三月书</title>
+        <link>https://example.com/tags/programming-notes/</link>
+        <description>Recent content in Programming Notes on 三月书</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <copyright>SanYueLi</copyright>
-        <lastBuildDate>Wed, 20 Dec 2023 16:43:23 +0800</lastBuildDate><atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 20 Dec 2023 16:43:23 +0800</lastBuildDate><atom:link href="https://example.com/tags/programming-notes/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Golang Notes：数据类型</title>
         <link>https://example.com/p/golang-notes%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/</link>
         <pubDate>Wed, 20 Dec 2023 16:43:23 +0800</pubDate>
@@ -1111,30 +1111,6 @@
 &lt;p&gt;想要删除map中的元素，需要使用关键字 &lt;code&gt;delete&lt;/code&gt;。这个关键字的唯一作用就是将某一个键对应的元素从哈希表中删除，无论是该键对应的值是否存在，这个内建的函数都不会返回任何的结果。&lt;/p&gt;
 &lt;p&gt;删除操作首先会检查 &lt;code&gt;h.flag&lt;/code&gt; 标志，如果发现写标位是 1，直接 panic，因为这表明有其他协程同时在进行写操作。然后计算 key 的哈希，找到落入的 bucket。检查此 map 如果正在扩容的过程中，直接触发一次搬迁操作。&lt;/p&gt;
 </description>
-        </item>
-        <item>
-        <title>Archives</title>
-        <link>https://example.com/archives/</link>
-        <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
-        
-        <guid>https://example.com/archives/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>About</title>
-        <link>https://example.com/about/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://example.com/about/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Search</title>
-        <link>https://example.com/search/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://example.com/search/</guid>
-        <description></description>
         </item>
         
     </channel>
